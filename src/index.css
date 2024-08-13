@@ -1,0 +1,145 @@
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6edf3;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  margin-top: 50vh;
+  padding: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  width: 20vw;
+  height: 50vh;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+
+}
+
+.card h4 {
+  margin: 0;
+  color: #888;
+}
+
+.card h2 {
+  color: #333;
+  font-size: 18px;
+}
+
+.card p {
+
+  font-size: 14px;
+}
+
+.btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+   background-color: transparent;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #b3b3b355;
+  border-radius: 20%;
+}
+
+.pagination {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  text-align: center;
+}
+
+.pagination button {
+  background-color: #949494;
+  color: rgb(255, 255, 255);
+  border: none;
+  font-weight: 700;
+  border-radius: 50px;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #ffffff;
+  color: #333;
+}
+
+.pagination .active {
+  background-color: #ffffff;
+  color: #333;
+
+}
+
+h2 {
+  color: #888;
+  height: 6.5vh;
+  text-align: start;
+}
+
+#title,#body {
+  font-weight: 700;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.time{
+  position: absolute;
+  width: 90%;
+  color: #9f9f9f;
+  top: 20vh;
+}
+
+.cardimg {
+  position: absolute;
+  bottom: 15px;
+  width: 20vw;
+  height: 25vh;
+}
+
+.loading{
+  position: absolute;
+  top: 50vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  /* color: #9f9f9f; */
+}
